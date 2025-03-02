@@ -72,19 +72,6 @@
 				"type": "fallback"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -96,7 +83,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -121,7 +108,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"optimized-faucet.sol": "Faucet"
+			"faucet.sol": "Faucet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -135,12 +122,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"optimized-faucet.sol": {
-			"keccak256": "0xb8b3fbcd76dc8a5cf5265d134c5a0a3980a1e54a3a5143b5522bb7a8df4ca71c",
-			"license": "CC-BY-SA-4.0",
+		"faucet.sol": {
+			"keccak256": "0x2e75eacb337ff06c38c17e0001e77aea837ba2f8c67b1a56ff9679ced907765a",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://76c4fd39c92cac3a505aba4692d8dc0b1742f0bfe12355db7d95f9efb2572ad1",
-				"dweb:/ipfs/QmdusXr4Bvf7fmEsVRnDYLtxJAjvqB1GdBrgMXNf6J9tho"
+				"bzz-raw://c6d450329e5790b7be237362b8568008430e24f852ca1f9544ca6c16d7ecdffe",
+				"dweb:/ipfs/QmQETW2upksz9beB7SsHhLKQzxZj3UeLxWDdykufZnrGDN"
 			]
 		}
 	},
